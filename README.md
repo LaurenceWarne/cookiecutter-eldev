@@ -1,6 +1,6 @@
 # cookiecutter-eldev
 
-A cookiecutter for eldev projects, you can use it via:
+A [cookiecutter](https://github.com/cookiecutter/cookiecutter) for Emacs [Eldev](https://github.com/doublep/eldev/) projects, you can use it via:
 
 ```bash
 cookiecutter https://github.com/LaurenceWarne/eldev-cookiecutter
