@@ -1,0 +1,8 @@
+{
+    "project_name": "my-cool-project.el",
+    "project_file_name": "{{ cookiecutter.project_name }}",
+    "description": "Does cool stuff",
+    "author": "PROgrammer",
+    "username": "{{ cookiecutter.author}}",
+    "emacs_version": "27.0"
+}

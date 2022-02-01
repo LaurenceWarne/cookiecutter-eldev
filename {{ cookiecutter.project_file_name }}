@@ -1,0 +1,11 @@
+;;; {{cookiecutter.project_file_name}} --- {{cookiecutter.description}} -*- lexical-binding: t -*-
+
+;; Author: {{cookiecutter.author}}
+;; Maintainer: {{cookiecutter.author}}
+;; Version: 0.1
+;; Homepage: https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_name}}
+;; Package-Requires: ((emacs "{{cookiecutter.emacs_version}}"))
+
+(provide '{{cookiecutter.project_file_name}})
+
+;;; {{cookiecutter.project_file_name}} ends here
