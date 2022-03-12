@@ -9,7 +9,9 @@
 ;;; Commentary:
 
 ;; {{cookiecutter.description}}
-   
+
+;;; Code:
+
 (provide '{{ cookiecutter.project_file_name.rstrip(".el") }})
 
 ;;; {{cookiecutter.project_file_name}} ends here
