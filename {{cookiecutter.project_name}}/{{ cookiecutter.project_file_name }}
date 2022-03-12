@@ -6,6 +6,10 @@
 ;; Homepage: https://github.com/{{cookiecutter.username}}/{{cookiecutter.project_name}}
 ;; Package-Requires: ((emacs "{{cookiecutter.emacs_version}}"))
 
-(provide '{{cookiecutter.project_file_name}})
+;;; Commentary:
+
+;; {{cookiecutter.description}}
+   
+(provide '{{ cookiecutter.project_file_name.rstrip(".el") }})
 
 ;;; {{cookiecutter.project_file_name}} ends here
