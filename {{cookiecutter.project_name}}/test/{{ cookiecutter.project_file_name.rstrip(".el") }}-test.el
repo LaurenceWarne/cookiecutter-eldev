@@ -8,4 +8,4 @@
 
 (require 'buttercup)
 
-(require '{{cookiecutter.project_file_name}})
+(require '{{ cookiecutter.project_file_name.rstrip(".el") }})
