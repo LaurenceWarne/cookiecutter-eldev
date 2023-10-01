@@ -19,6 +19,7 @@ jobs:
           - 27.2
           - 28.1
           - 28.2
+          - 29.1
 
     steps:
     - name: Set up Emacs
@@ -30,7 +31,7 @@ jobs:
       run: curl -fsSL https://raw.github.com/doublep/eldev/master/webinstall/github-eldev | sh
 
     - name: Check out the source code
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
 
     - name: Test the project
       run: |
